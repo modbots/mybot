@@ -53,10 +53,10 @@ async def bot_message(message: types.Message):
     if message.chat.type == 'private':
         #if user will try to write 'Profile' without subscription
         if check_sub(await bot.get_chat_member(chat_id=CHANNEL_ID, user_id=message.from_user.id)):
-            if message.text == 'SERVER':
+            if message.text == 'SERVERS':
                 await bot.send_message(message.from_user.id, 'Hi there👋 please choose any server you want to create GCP SSH account.We restricted one user one account policy to advoid SSH account polution.', reply_markup=nav.ServerMenu)
             else:
-                #await bot.send_message(message.from_user.id, 'Unknown command')
+                await bot.send_message(message.from_user.id, 'Unknown command')
                 pass
         else:
             await message.reply(NOT_SUB, reply_markup=nav.checkSubMenu)
