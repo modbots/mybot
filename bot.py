@@ -164,8 +164,7 @@ async def inserver(message: types.Message):
         await bot.send_message(message.from_user.id, ANOTHER_NOT_SUB, reply_markup=nav.checkSubMenu)
 
 
-
-
+Popen(f"gunicorn server.server:app --bind 0.0.0.0:8080", shell=True)
 
 
 
