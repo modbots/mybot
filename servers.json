@@ -1,0 +1,36 @@
+{
+    "servers": [
+        {
+            "serverName":"IN",
+            "providerID":"123654",
+            "email": "minnkyawkyaw91@gmail.com",
+            "apiKey": "SWJMM21eiODiYwV47gwiBMl302kIy2",
+            "appId": "3196496",
+            "serverId": "920846",
+            "serverIp": "35.200.160.169",
+            "description": "Thank For Using It"
+        },
+        {
+            "serverName":"US",
+            "providerID":"123654",
+            "email": "cristotalmontre@gmail.com",
+            "apiKey": "60QUy3TWllYtRxVJ0NN2ewvYuP4kVr",
+            "appId": "3206226",
+            "serverId": "923797",
+            "serverIp": "35.200.160.169",
+            "description": "Thank For Using It"
+        },
+        {
+            "serverName":"JP",
+            "providerID":"123654",
+            "email": "cristotalmontre@gmail.com",
+            "apiKey": "60QUy3TWllYtRxVJ0NN2ewvYuP4kVr",
+            "appId": "3206244",
+            "serverId": "923804",
+            "serverIp": "34.146.109.182",
+            "description": "Thank For Using It"
+        }
+        
+        
+    ]
+}
