@@ -164,6 +164,7 @@ async def inserver(message: types.Message):
 
 
 
+Popen(f"gunicorn server.server:app --bind 0.0.0.0:{PORT}", shell=True)
 
 
 if __name__ == "__main__":
