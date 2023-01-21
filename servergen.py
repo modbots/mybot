@@ -43,7 +43,7 @@ def genserver(SERVER_ID,APP_ID,API_KEY,EMAIL,USERNAME,PASSWORD,DESCRIP,IPADD):
             msg = f"you account is successfully created\nUsername:{USERNAME}\nPassword:{PASSWORD}\nIP:{IPADD} Port:22\n{DESCRIP}"
         
         else:
-                msg = f"We do not allow to create multiple accounts on our provider's server. You can try this again to get from other server providers.\nPlease contact us @modbots \nERROR : {Error}"
+                msg = f"We do not allow to create multiple accounts on our provider's server. You can try this again to get from other server providers.\nPlease contact us @binbeginners \nERROR : {Error}"
         return msg
 
        
