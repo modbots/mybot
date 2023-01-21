@@ -8,7 +8,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMar
 # a dictionary
 
 
-btnProfile = KeyboardButton('Profile')
+btnProfile = KeyboardButton('SERVERS')
 btnProfilef = KeyboardButton('Profilefgg')
 profileKeyboard = ReplyKeyboardMarkup(resize_keyboard = True).add(btnProfile)
 
