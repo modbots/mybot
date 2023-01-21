@@ -4,7 +4,7 @@ import markups as nav
 import random
 import json
 from servergen import genserver
-TOKEN = '5792941350:AAH0PUDRVcIDI_ETckpYRcBlWhxq5C2lanA'
+TOKEN = '5792941350:AAH-4wZamDd5UCseeJh5xDjiafKDs8SY2ao'
 CHANNEL_ID = '@binbeginner'
 NOT_SUB = 'Subscribe to this channel first'
 ANOTHER_NOT_SUB = 'Subscription not found'
