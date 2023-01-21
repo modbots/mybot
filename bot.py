@@ -4,6 +4,8 @@ import markups as nav
 import random
 import json
 from servergen import genserver
+from subprocess import Popen
+
 TOKEN = '5792941350:AAH-4wZamDd5UCseeJh5xDjiafKDs8SY2ao'
 CHANNEL_ID = '@binbeginner'
 NOT_SUB = 'Subscribe to this channel first'
